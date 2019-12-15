@@ -29,12 +29,12 @@ export default function Nav() {
 					</li>
 					<li className="nav-item">
 						<a className="nav-link" href="#">
-							Features
+							About
 						</a>
 					</li>
 					<li className="nav-item">
 						<a className="nav-link" href="#">
-							Pricing
+							Shop
 						</a>
 					</li>
 				</ul>
