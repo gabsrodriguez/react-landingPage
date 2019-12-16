@@ -8,7 +8,8 @@ export default function Nav() {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-light bg-light text-center">
 			<a className="navbar-brand" href="#">
-				Navbar
+				Dulce
+				{"'"}s Flower Market
 			</a>
 			<button
 				className="navbar-toggler"
