@@ -11,7 +11,6 @@ export default function Jumbotron() {
 				{"'"}s Flower Market
 			</h1>
 			<p className="lead" />
-			<hr className="my-4" />
 			<p />
 			<a className="btn btn-primary btn-lg btn1" href="#" role="button">
 				Place an Order
