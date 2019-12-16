@@ -23,24 +23,22 @@ export default function Cards() {
 	];
 
 	return (
-		<>
-			<div className="card-deck" id="profiles">
-				{packages.map((makecards, index) => {
-					return (
-						<div key={index} className="card">
-							<img
-								className="card-img-top"
-								src={makecards.picture}
-								alt="Card image cap"
-							/>
-							<div className="cardBody">
-								<h5 className="cardTitle">{makecards.name}</h5>
-								<p className="cardText">{makecards.info}</p>
-							</div>
+		<div className="card-deck" id="profiles">
+			{packages.map((makecards, index) => {
+				return (
+					<div key={index} className="card">
+						<img
+							className="card-img-top"
+							src={makecards.picture}
+							alt="Card image cap"
+						/>
+						<div className="cardBody">
+							<h5 className="cardTitle">{makecards.name}</h5>
+							<p className="cardText">{makecards.info}</p>
 						</div>
-					);
-				})}
-			</div>
-		</>
+					</div>
+				);
+			})}
+		</div>
 	);
 }
