@@ -6,7 +6,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 export default function Nav() {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light">
+		<nav className="navbar navbar-expand-lg navbar-light bg-light text-center">
 			<a className="navbar-brand" href="#">
 				Navbar
 			</a>
